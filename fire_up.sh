@@ -6,7 +6,7 @@ sudo -i
 
 #Halt all forever processing apps
 
-sudo forever stop all
+sudo forever stopall
 
 #Fire Up Live Updater
 
