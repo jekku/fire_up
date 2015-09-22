@@ -24,7 +24,7 @@ cd /www/gamerstm-rewrite
 NODE_ENV=production sudo forever start cluster.js server.js
 
 #Refresh all JSX and SASS compilations
-npm frontend:compass:compile
+npm frontend:sass:compile
 npm frontend:webpack:compile
 
 #Fire Up Frontend Server
